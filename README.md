@@ -22,3 +22,11 @@ A modern, full-stack backend template featuring **FastAPI**, **SQLAlchemy**, and
 - **Python SDK** – Custom client for API interaction
 
 ---
+
+## 🙏 Acknowledgments
+
+This project is inspired by the work of [Ryandaydev](https://github.com/Ryandaydev).
+  
+I am using this as a learning resource to understand how to build a Python SDK and REST API using FastAPI and SQLAlchemy.
+
+All credit for the original architecture and design goes to the author(Ryan Day). This version is adapted for educational purposes.

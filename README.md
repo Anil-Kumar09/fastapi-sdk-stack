@@ -18,7 +18,6 @@ A modern, full-stack backend template featuring **FastAPI**, **SQLAlchemy**, and
 - **FastAPI** – Web framework for building APIs
 - **SQLAlchemy** – ORM for database access
 - **Pydantic** – Data validation and serialization
-- **Uvicorn** – ASGI server
 - **Python SDK** – Custom client for API interaction
 
 ---

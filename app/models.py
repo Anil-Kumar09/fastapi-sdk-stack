@@ -20,7 +20,7 @@ class Performance(Base):
     week_number = Column(String,nullable = False)
     fantasy_points = Column(Float,nullable = False)
     last_changed_date = Column(Date,nullable = False)
-    player_id = Colummn(Integer, ForeignKey("player.player_id"))
+    player_id = Column(Integer, ForeignKey("player.player_id"))
     player = relationship("Player",back_populates = "performances")
 
 class League(Base):
@@ -35,7 +35,7 @@ class League(Base):
 class Team(Base):
     __tablename__ = "team"
     team_id = Column(Integer,primary_key = True,index = True)
-    team_name = COlumn(String,nullable = False)
+    team_name = Column(String,nullable = False)
     last_changed_date = Column(Date,nullable = False)
     league_id = Column(Integer,ForeignKey("league.league_id"))
     league = relationship("League",back_populates = "teams")
